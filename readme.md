@@ -1,7 +1,7 @@
 Zend Framework 2 Event Logger
 ====
 
-Module that logs all events to the error_log.
+Zend Framework 2 module that logs all events to the error_log.
 
 Requirements
 ----
