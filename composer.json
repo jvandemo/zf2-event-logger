@@ -1,0 +1,25 @@
+{
+    "name": "jvandemo/zf2-event-logger",
+    "type": "library",
+    "description": "Zend Framework 2 Event Logger module",
+    "keywords": ["event","logger", "events", "zf2"],
+    "homepage": "https://github.com/jvandemo/zf2-event-logger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jurgen Van de Moere",
+            "email": "jurgen.van.de.moere@gmail.com",
+            "homepage": "http://www.jvandemo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-user": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
